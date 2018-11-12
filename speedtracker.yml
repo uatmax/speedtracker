@@ -33,11 +33,11 @@
 #  key on the first input field. Leave the "What do you want to encrypt?"     #
 #  field blank and use the result on the encryptionKey field.                 #
 #                                                                             #
-#  e.g. The key "foobar123" will generate "0a5f0c0670219dc049"                #
+#  e.g. The key "lms123" will generate "0a5f0c0670219dc049"                #
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-encryptionKey: "YOUR_ENCRYPTED_KEY"
+encryptionKey: "36cc75bf695a"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -50,7 +50,7 @@ encryptionKey: "YOUR_ENCRYPTED_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
+wptKey: "1b8f64be395c9e9481cb969bba57fc70ffc299f061411a0f78e8289614ff253943ba"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
