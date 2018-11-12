@@ -1,0 +1,59 @@
+---
+#
+# The human-friendly name of the profile. Whenever you're asked for the profile
+# ID, it refers to the name of the profile file — in this case, "default".
+#
+name: "mx_ae_ar_p_WN18WT864CTBLACKMULTISHADE"
+
+#
+# The default profile will be the one shown when accessing the root URL of your
+# SpeedTracker site.
+#
+default: false
+
+#
+# If you want tests to be repeated automatically, you can an interval (in hours)
+# with a minimum value of 12, as only two scheduled tests per day are allowed.
+# To disabled repeated tests, simply remove this property from the profile.
+#
+interval: 12
+
+#
+# WebPageTest test parameters.
+# For a list of supported params, check:
+#
+# https://www.npmjs.com/package/webpagetest
+#
+parameters:
+  connectivity: "Cable"
+  location: "Dubai:Chrome"
+  runs: 1
+  url: "https://www.maxfashion.com/ae/ar/%D8%A7%D9%84%D9%86%D8%B3%D8%A7%D8%A1/%D8%B9%D8%A7%D8%AF%D9%8A/%D8%A8%D9%84%D9%88%D8%B2%D8%A7%D8%AA/%D9%82%D9%85%D8%B5%D8%A7%D9%86-%D9%88%D8%A8%D9%84%D9%88%D8%B2%D8%A7%D8%AA/%D9%85%D8%A7%D9%83%D8%B3-%D9%82%D9%85%D9%8A%D8%B5-%D9%83%D8%A7%D8%B1%D9%88%D9%87%D8%A7%D8%AA-%D8%A8%D8%A3%D9%83%D9%85%D8%A7%D9%85-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-%D9%88%D9%88%D8%B5%D9%84%D8%A9-%D8%A3%D8%B2%D8%B1%D8%A7%D8%B1-%D9%83%D8%A7%D9%85%D9%84%D8%A9/p/WN18WT864CTBLACKMULTISHADE"
+
+#
+# The URL of the WebPageTest instance to be used with this profile. Please note that
+# if you decide to encrypt this URL, the filmstrip section will not be displayed.
+#
+# If you leave this field out, the public instance of WebPageTest will be used.
+#
+#wptUrl: https://www.webpagetest.org
+
+#
+# Performance budgets are defined with a metric id, a max/min allowed value
+# (in milliseconds), and one or multiple alerts — referenced by the ids defined
+# in the main config — to be triggered when a budget is overrun.
+#
+# For a list of metrics, check:
+#
+# https://github.com/speedtracker/speedtracker-api/blob/master/lib/SpeedTracker.js#L18-L37
+#
+#budgets:
+#  -
+#    metric: TTFB
+#    max: 600
+#    alerts: ["emailAlert", "slackAlert"]
+#  -
+#    metric: firstPaint
+#    max: 2000
+#    alerts: ["slackAlert"]
+---
